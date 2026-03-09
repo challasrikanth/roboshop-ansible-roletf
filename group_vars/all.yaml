@@ -1,6 +1,6 @@
 ansible_user: ec2-user
 ansible_password: DevOps321
-MONGODB_HOST: mongodb-dev.srikanthchalla.online
+MONGODB_HOST: mongodb-"{{ env }}".srikanthchalla.online
 CATALOGUE_HOST: catalogue-dev.srikanthchalla.online
 REDIS_HOST: redis-dev.srikanthchalla.online
 USER_HOST: user-dev.srikanthchalla.online
