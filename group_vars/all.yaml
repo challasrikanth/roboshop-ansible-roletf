@@ -2,10 +2,10 @@ ansible_user: ec2-user
 ansible_password: DevOps321
 MONGODB_HOST: mongodb-"{{ env }}".srikanthchalla.online
 CATALOGUE_HOST: catalogue-dev.srikanthchalla.online
-REDIS_HOST: redis-dev.srikanthchalla.online
-USER_HOST: user-dev.srikanthchalla.online
-CART_HOST: cart-dev.srikanthchalla.online
-MYSQL_HOST: mysql-dev.srikanthchalla.online
-SHIPPING_HOST: shipping-dev.srikanthchalla.online
-RABBITMQ_HOST: rabbitmq-dev.srikanthchalla.online
-PAYMENT_HOST: payment-dev.srikanthchalla.online
+REDIS_HOST: redis-"{{ env }}".srikanthchalla.online
+USER_HOST: user-"{{ env }}".srikanthchalla.online
+CART_HOST: cart-"{{ env }}".srikanthchalla.online
+MYSQL_HOST: mysql-"{{ env }}".srikanthchalla.online
+SHIPPING_HOST: shipping-"{{ env }}".srikanthchalla.online
+RABBITMQ_HOST: rabbitmq-"{{ env }}".srikanthchalla.online
+PAYMENT_HOST: payment-"{{ env }}".srikanthchalla.online
